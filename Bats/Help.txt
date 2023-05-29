@@ -1,0 +1,15 @@
+to add options to the script just add your option here 
+
+"("GTA 5 Epic Normal", "GTA 5 Epic Modded", "GTA 5 Steam Normal", "GTA 5 Steam Modded", "sex")"
+
+and add one of these blocks 
+
+                3 {
+                    # Run Option 4
+                    Start-Process "C:\Users\maded\Desktop\Stuff\GTA Changer\Grand Theft Auto V Steam Modded.lnk" -WindowStyle Hidden
+                    Start-Process "C:\Users\maded\Desktop\Stuff\Games\Grand Theft Auto V Steam.url"
+                    Write-Host "Starting GTA 5 Steam Modded"
+                    Start-Sleep -Seconds 3
+                }
+and add +1 on every option 
+note: the number at the top is allways -1 from the number below
